@@ -9,10 +9,15 @@ In this project, the goal was to utilize TCPDump to capture and analyze TCP traf
 ### Skills Learned
 
    -Packet Capture and Analysis: Use TCPDump to capture and analyze TCP/IP packets, including filtering traffic for specific details like source, destination, or protocol types<br>
+   
    -Scripting and Automation: Develop Linux shell scripts to automate network monitoring tasks, enhancing operational efficiency<br>
+   
    -Traffic Logging: Build and manage logging tools to record network activities systematically<br>
+   
    -Advanced Filtering Techniques: Apply complex expressions to filter packets effectively, ensuring precise data extraction<br>
+   
    -Dump File Management: Create and handle sequential dump files with specific size and time constraints<br>
+   
    -Network Forensics: Gain insights into analyzing captured traffic for forensic purposes, including extracting valuable information from encrypted or raw data<br>
  
 ### Tools Used
