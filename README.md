@@ -98,7 +98,7 @@ In this project, the goal was to utilize TCPDump to capture and analyze TCP traf
 -Then I opened the capture.pcap file in Wireshark to observe the traffic. The 129.164.179.22 is the IP address for apod.<br>
 ![PCAP file](https://github.com/user-attachments/assets/1b26f341-5b4a-45a1-806a-e356c3c68af1)<br>
 
--Lastly I filtered the HTTP entries in Wireshark to look at them directly. Clicking around the differnt entries, it shows what was being sent back and forth, as well as the encrypted data that was sent. I clicked around a lot of different images on the apod website and that was shown by the network traffic.<br>
+-Lastly I filtered the HTTP entries in Wireshark to look at them directly. Clicking around the different entries, it shows what was being sent back and forth, as well as the encrypted data that was sent. I clicked around a lot of different images on the apod website and that was shown by the network traffic.<br>
 ![TLS Handshake](https://github.com/user-attachments/assets/b2a4a1ee-a0b8-4c65-980c-3f6a94add8e5)<br>
 
 In the final step I set the environmental variable SSLKEYLOGFILE to the path where I wanted the web browsers to capture the private keys used in SSL encryption. In Wireshark, I set the Protocol TLS Pre-master secret log file to decrypt the encrypted traffic capture.<br>
